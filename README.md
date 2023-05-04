@@ -25,7 +25,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 ## Feature
 
-1. vite: yarn create vite
+1. vite
 2. vue3
 3. Typescript
 4. vue-router

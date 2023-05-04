@@ -1,4 +1,16 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* use tailwindcss style components */
+/* <li class="siderbar-icon"></li> */
+@layer components {
+  .siderbar-icon {
+    @apply text-center mb-5 rounded-lg hover:shadow-md hover:shadow-blue-300 dark:bg-gray-800;
+  }
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -77,4 +89,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
