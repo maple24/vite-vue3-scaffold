@@ -31,6 +31,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 4. vue-router
 5. tailwindcss
 6. i18n
+7. vue-router
 
 ## Q&A
 
@@ -43,3 +44,7 @@ declare module '\*.vue' { import type { DefineComponent } from 'vue' const compo
 2. How to solve "Cannot find name '\_\_dirname' Error in TypeScript"
 
 To solve the error "Cannot find name \_\_dirname", install the node typings by running 'yarn add @types/node'
+
+3. How to enable autocomplete for '@' alias
+
+Add baseUrl and paths into tsconfig.json file
