@@ -22,16 +22,17 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 1. git clone https://github.com/maple24/vite-vue3-scaffold.git
 2. yarn i
 3. yarn dev
+4. yarn tauri dev
 
 ## Feature
 
 1. vite
 2. vue3
 3. Typescript
-4. vue-router
-5. tailwindcss
-6. i18n
-7. vue-router
+4. vue-router v4
+5. tailwindcss v3
+6. vue-i18n v9
+7. tauri
 
 ## Q&A
 
