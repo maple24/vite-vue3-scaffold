@@ -25,20 +25,26 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 4. yarn tauri dev
 
 ## Features
-- Vite
-- Vue3
-- Typescript
-- Vue-router v4
-- Tailwindcss v3
-- Vue-i18n-next v9
-- Pinia
-- Vueuse
-- Tauri
+- [Vite](https://vitejs.dev/)
+- [Vue3](https://vuejs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vue-router v4](https://router.vuejs.org/)
+- [Tailwindcss v3](https://tailwindcss.com/)
+- [Vue-i18n-next v9](https://vue-i18n.intlify.dev/)
+- [Vueuse v10](https://vueuse.org/)
+- [Vitest](https://vitest.dev/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Tauri](https://tauri.app/)
   
 ## Usage
-- Dark mode
+- Dark mode (vueuse + tailwindcss)
 Uses Tailwind CSS favored dark mode which enables dark mode when class dark is applied to the html tag.
 Specify your dark mode style to each element by using 'class="dark:bg-black"'
+Example usage in /src/example/darkmode.vue. 
+- I18n (vue-i18n-next + intlify/plugin)
+All available locales will be pre-compilered automatically, the path of locales is defined in vite.config.ts.
+To use i18n, an instance is defined in main.ts to specify messages and locale.
+Example usage in /src/example/i18n.vue.
 
 ## Q&A
 
