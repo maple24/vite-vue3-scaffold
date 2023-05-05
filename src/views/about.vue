@@ -1,25 +1,3 @@
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n';
-import { ref } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'
-
-const { t, availableLocales, locale } = useI18n();
-
-const toggleLocales = () => {
-  locale.value =
-    availableLocales[(availableLocales.indexOf(locale.value) + 1) % availableLocales.length];
-  console.log(locale.value);
-};
-
-const toggleDark = () => console.log("toggle theme");
-
-const show = ref(false);
-
-setTimeout(() => {
-  show.value = true;
-}, 1000);
-
-</script>
 <template>
   <div class="container max-w-3xl mx-auto mt-60">
     <div class="h-60 mb-8">
@@ -60,3 +38,27 @@ setTimeout(() => {
     </footer>
   </div>
 </template>
+
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+import { ref } from 'vue';
+import HelloWorld from '@/components/HelloWorld.vue'
+import { useDark, useToggle } from '@vueuse/core'
+
+const { t, availableLocales, locale } = useI18n();
+const toggleLocales = () => {
+  locale.value =
+    availableLocales[(availableLocales.indexOf(locale.value) + 1) % availableLocales.length];
+  console.log(locale.value);
+};
+
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
+
+const show = ref(false);
+
+setTimeout(() => {
+  show.value = true;
+}, 1000);
+
+</script>

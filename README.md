@@ -25,14 +25,20 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 4. yarn tauri dev
 
 ## Features
-- vite
-- vue3
-- typescript
-- vue-router v4
-- tailwindcss v3
-- vue-i18n-next v9
-- pinia
-- tauri
+- Vite
+- Vue3
+- Typescript
+- Vue-router v4
+- Tailwindcss v3
+- Vue-i18n-next v9
+- Pinia
+- Vueuse
+- Tauri
+  
+## Usage
+- Dark mode
+Uses Tailwind CSS favored dark mode which enables dark mode when class dark is applied to the html tag.
+Specify your dark mode style to each element by using 'class="dark:bg-black"'
 
 ## Q&A
 

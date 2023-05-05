@@ -10,8 +10,16 @@ const routes = [
     component: () => import('@/views/about.vue'),
   },
   {
-    path: '/draft',
-    component: () => import('@/views/draft.vue'),
+    path: '/examples/darkmode',
+    component: () => import('@/examples/darkmode.vue'),
+  },
+  {
+    path: '/examples/i18n',
+    component: () => import('@/examples/i18n.vue'),
+  },
+  {
+    path: '/examples/store',
+    component: () => import('@/examples/store.vue'),
   },
 ];
 

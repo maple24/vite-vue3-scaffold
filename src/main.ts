@@ -4,6 +4,11 @@ import App from './App.vue'
 import router from './router/index'
 import { createI18n } from 'vue-i18n'
 import messages from '@intlify/vite-plugin-vue-i18n/messages'
+import { createPinia } from 'pinia'
+
+
+const pinia = createPinia()
+
 const i18n = createI18n({
     locale: 'en-us',
     fallbackLocale: 'zh-cn',
@@ -12,6 +17,7 @@ const i18n = createI18n({
 })
 
 createApp(App)
+    .use(pinia)
     .use(router)
     .use(i18n)
     .mount('#app')
