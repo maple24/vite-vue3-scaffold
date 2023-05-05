@@ -20,19 +20,19 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 ## Quick Start
 
 1. git clone https://github.com/maple24/vite-vue3-scaffold.git
-2. yarn i
+2. yarn install
 3. yarn dev
 4. yarn tauri dev
 
-## Feature
-
-1. vite
-2. vue3
-3. Typescript
-4. vue-router v4
-5. tailwindcss v3
-6. vue-i18n v9
-7. tauri
+## Features
+- vite
+- vue3
+- typescript
+- vue-router v4
+- tailwindcss v3
+- vue-i18n-next v9
+- pinia
+- tauri
 
 ## Q&A
 
@@ -49,3 +49,11 @@ To solve the error "Cannot find name \_\_dirname", install the node typings by r
 3. How to enable autocomplete for '@' alias
 
 Add baseUrl and paths into tsconfig.json file
+
+4. How to solve "Could not find a declaration file for module 'vue-i18n'""
+
+Add "noImplicitAny": false to tsconfig.json file
+
+5. How to solve "Cannot find module '@intlify/vite-plugin-vue-i18n/messages' or its corresponding type declarations"
+
+See Q1.

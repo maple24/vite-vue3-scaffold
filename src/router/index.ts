@@ -9,6 +9,10 @@ const routes = [
     path: '/about',
     component: () => import('@/views/about.vue'),
   },
+  {
+    path: '/draft',
+    component: () => import('@/views/draft.vue'),
+  },
 ];
 
 // url without hash
