@@ -38,6 +38,8 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 - [DaisyUI](https://daisyui.com/)
   
 ## Usage
+- Theme(DaisyUI)
+Add data-theme="cupcake" in HTML tag ,where data-theme is defined in tailwind.config.ts.
 - Dark mode (vueuse + tailwindcss)
 Uses Tailwind CSS favored dark mode which enables dark mode when class dark is applied to the html tag.
 Specify your dark mode style to each element by using 'class="dark:bg-black"'

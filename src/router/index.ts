@@ -21,6 +21,10 @@ const routes = [
     path: '/examples/store',
     component: () => import('@/examples/store.vue'),
   },
+  {
+    path: '/examples/theme',
+    component: () => import('@/examples/theme.vue'),
+  },
 ];
 
 // url without hash
