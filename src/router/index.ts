@@ -3,11 +3,11 @@ import { createRouter, createWebHistory } from 'vue-router';
 const routes = [
   {
     path: '/',
-    component: () => import('@/views/homepage.vue'),
+    component: () => import('@/pages/homepage.vue'),
   },
   {
     path: '/about',
-    component: () => import('@/views/about.vue'),
+    component: () => import('@/pages/about.vue'),
   },
   {
     path: '/examples/darkmode',

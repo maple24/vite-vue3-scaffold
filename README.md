@@ -35,6 +35,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 - [Vitest](https://vitest.dev/)
 - [Pinia](https://pinia.vuejs.org/)
 - [Tauri](https://tauri.app/)
+- [DaisyUI](https://daisyui.com/)
   
 ## Usage
 - Dark mode (vueuse + tailwindcss)
