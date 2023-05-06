@@ -6,7 +6,6 @@ import { createI18n } from 'vue-i18n'
 import messages from '@intlify/vite-plugin-vue-i18n/messages'
 import { createPinia } from 'pinia'
 
-
 const pinia = createPinia()
 
 const i18n = createI18n({

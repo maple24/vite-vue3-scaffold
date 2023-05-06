@@ -32,6 +32,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 - [Tailwindcss v3](https://tailwindcss.com/)
 - [Vue-i18n-next v9](https://vue-i18n.intlify.dev/)
 - [Vueuse v10](https://vueuse.org/)
+- [iconify&icones](https://icones.js.org/)
 - [Vitest](https://vitest.dev/)
 - [Pinia](https://pinia.vuejs.org/)
 - [Tauri](https://tauri.app/)
@@ -72,3 +73,5 @@ Add "noImplicitAny": false to tsconfig.json file
 5. How to solve "Cannot find module '@intlify/vite-plugin-vue-i18n/messages' or its corresponding type declarations"
 
 See Q1.
+
+6. Name of vue component file has conflict with plugins will cause error, such as icon.vue.
