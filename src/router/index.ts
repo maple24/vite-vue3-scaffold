@@ -1,14 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import routes from '~pages'
 
-const routes = [
-  {
-    path: '/',
-    component: () => import('@/pages/homepage.vue'),
-  },
-  {
-    path: '/about',
-    component: () => import('@/pages/about.vue'),
-  },
+const Routes = [
+  ...routes,
   {
     path: '/examples/darkmode',
     component: () => import('@/examples/darkmode.vue'),
@@ -35,7 +29,7 @@ const routes = [
 const router = createRouter({
   scrollBehavior: () => ({ left: 0, top: 0 }),
   history: createWebHistory(),
-  routes,
+  routes: Routes,
 });
 
 export default router

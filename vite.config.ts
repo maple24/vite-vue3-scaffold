@@ -3,12 +3,14 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 import vueI18n from '@intlify/vite-plugin-vue-i18n'
+import Pages from 'vite-plugin-pages'
 
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
+    Pages(),
     vueI18n({
       include: [path.resolve(__dirname, './locales/**')],
     }),],

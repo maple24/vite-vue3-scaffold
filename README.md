@@ -25,18 +25,20 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 4. yarn tauri dev
 
 ## Features
-- [Vite](https://vitejs.dev/)
-- [Vue3](https://vuejs.org/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Vue-router v4](https://router.vuejs.org/)
-- [Tailwindcss v3](https://tailwindcss.com/)
-- [Vue-i18n-next v9](https://vue-i18n.intlify.dev/)
-- [Vueuse v10](https://vueuse.org/)
-- [iconify&icones](https://icones.js.org/)
-- [Vitest](https://vitest.dev/)
-- [Pinia](https://pinia.vuejs.org/)
-- [Tauri](https://tauri.app/)
-- [DaisyUI](https://daisyui.com/)
+- ⚡️[Vite](https://vitejs.dev/)
+- 🔥Use the new <script setup> syntax [Vue3](https://vuejs.org/)
+- 🦾[Typescript](https://www.typescriptlang.org/)
+- 📲[Vue-router v4](https://router.vuejs.org/)
+- 🌬️[Tailwindcss v3](https://tailwindcss.com/)
+- 🌍[Vue-i18n-next v9](https://vue-i18n.intlify.dev/)
+- 😃[Vueuse v10](https://vueuse.org/)
+- 🔎[iconify&icones](https://icones.js.org/)
+- ⚙️[Vitest](https://vitest.dev/)
+- 🍍[Pinia](https://pinia.vuejs.org/)
+- 🖨[Tauri](https://tauri.app/)
+- 🎨[DaisyUI](https://daisyui.com/)
+- 🗂File based routing with [Vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
+- 📑Layout system with []()
   
 ## Usage
 - Theme(DaisyUI)
