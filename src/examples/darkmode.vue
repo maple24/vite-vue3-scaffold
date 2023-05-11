@@ -7,7 +7,7 @@ const toggleDark = useToggle(isDark)
 </script>
 
 <template>
-    <div class="dark:bg-black dark:text-white">
+    <div class="dark:bg-gray-1000 dark:text-white">
         <!-- <p>Value: {{ value ? 'ON' : 'OFF' }}</p> -->
         <button @click="toggleDark()">
             Is Dark: {{ isDark }}

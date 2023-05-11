@@ -1,6 +1,6 @@
 <template>
-  <div class="container max-w-3xl mx-auto mt-60">
-    <div class="h-60 mb-8">
+  <div>
+    <div class=" h-60 mb-8">
       <transition enter-active-class="transition ease-out duration-1000 transform"
         enter-from-class="-translate-x-100 opacity-0" enter-to-class="translate-x-0 opacity-100"
         leave-active-class="transition ease-in duration-1000 transform" leave-from-class="opacity-100"

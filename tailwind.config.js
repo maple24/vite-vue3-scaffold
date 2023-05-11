@@ -35,7 +35,13 @@ export default {
   },
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gray: {
+          1000: '#121212'
+        }
+      }
+    },
   },
   plugins: [require("daisyui")],
 };
